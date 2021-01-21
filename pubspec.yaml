@@ -37,9 +37,10 @@ dependencies:
   #gbk support
   gbk_codec: ^0.3.2
   #js_core: support ios ,android , windows , macOS
-  flutter_qjs:
-    git:
-      url: https://github.com/huage2580/flutter_qjs.git
+  flutter_qjs: ^0.2.6
+#   flutter_qjs:
+#     git:
+#       url: https://github.com/huage2580/flutter_qjs.git
   #uuid
   uuid: ^2.2.2
   #json_path
