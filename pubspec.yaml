@@ -39,7 +39,7 @@ dependencies:
   #js_core: support ios ,android , windows , macOS
   flutter_qjs:
     git:
-      url: https://github.com/huage2580/flutter_qjs.git
+      url: https://github.com/lookdczar/flutter_qjs.git
   #uuid
   uuid: ^2.2.2
   #json_path
