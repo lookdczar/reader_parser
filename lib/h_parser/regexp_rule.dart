@@ -1,6 +1,5 @@
-
 ///正则和一些匹配的常量
-class RegexpRule{
+class RegexpRule {
   static const String PARSER_TYPE_CSS = "[-+]?@css:";
   static const String PARSER_TYPE_JSON = r"[-+]?@JSon:|[-+]?@json:|\$\.";
   static const String PARSER_TYPE_XPATH = r"[-+]?@XPath:|//";
@@ -20,13 +19,15 @@ class RegexpRule{
   static const String OPERATOR_MERGE = "%%";
   static const String DELIMITER = "@";
 
+  /// CSS规则多元素分隔符
+  static const String MULTI_CSS_ELEMENT = " ";
+
   static const String FILTER_TEXT = "text";
   static const String FILTER_TEXT_NODE = "textNodes";
   static const String FILTER_OWN_TEXT = "ownText";
   static const String FILTER_HTML = "html";
   static const String FILTER_ALL = "all";
   static const String FILTER_HREF = "href";
-
 
   static const String JSOUP_SPLIT = ".";
 
@@ -37,7 +38,6 @@ class RegexpRule{
   static const String JSOUP_SUPPORT_TEXT = "text";
   static const String JSOUP_SUPPORT_SELF = "self";
 
-
   static const String JSOUP_EXCLUDE_CHAR = "!";
   static const String JSOUP_EXCLUDE_INT = ":";
 
@@ -45,5 +45,4 @@ class RegexpRule{
 
   static const String EXP_MATCH = r"[\{]?\{(.*?)\}[\}]?";
   static const String EXP_JSON_MATCH = r"[\{]?\{(\$.*?)\}[\}]?";
-
 }
