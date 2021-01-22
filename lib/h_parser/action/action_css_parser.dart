@@ -69,6 +69,7 @@ class ActionCssParser extends ActionParser {
       }
       elements = temp;
     }
+    return elements;
   }
 
   @override
